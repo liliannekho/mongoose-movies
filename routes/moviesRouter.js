@@ -9,7 +9,7 @@ router.get('/', movieCtrol.index)
 //GET /movies/:id: Gets An Individual Movie
 router.get('/:id', movieCtrol.show)
 //POST /performers: Accepts performer data and creates a new performer.
-router.get('/:movieid/performers/:perfmerId', movieCtrl.addPerformer)
+router.post('/:movieid/performers/:perfmerId', movieCtrl.addPerformer)
 
 
 module.exports = router 
