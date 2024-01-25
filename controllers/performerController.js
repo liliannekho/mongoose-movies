@@ -1,4 +1,4 @@
-const Performer = require('../models/performer')
+const Performer = require('../controllers/performerController')
 const Movie = require('../models/movie')
 
 /*
